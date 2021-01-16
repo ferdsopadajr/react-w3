@@ -9,7 +9,14 @@ export default class Header extends React.Component {
     return { favoritecolor: props.favcol };
   }
   render() {
-    return <h1>My Favorite Color is {this.state.favoritecolor}</h1>;
+    let style = {
+      backgroundColor: "yellow",
+      fontFamily: "Lato",
+      fontWeight: 900
+    };
+    return (
+      <h1 style={style}>My Favorite Color is {this.state.favoritecolor}</h1>
+    );
   }
 }
 

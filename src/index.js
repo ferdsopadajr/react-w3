@@ -4,6 +4,7 @@ import Header from "./Header";
 import HeaderA from "./HeaderA";
 import Container from "./Container";
 import MyForm from "./MyForm";
+import "./style";
 
 ReactDOM.render(<Header favcol="yellow" />, document.getElementById("root"));
 ReactDOM.render(<HeaderA favcol="black" />, document.getElementById("root-a"));
