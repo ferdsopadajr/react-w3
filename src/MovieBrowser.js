@@ -1,9 +1,6 @@
 import React from "react";
 
 export default class MovieBrowser extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     const currentPlaying = "Money Heist";
     const childrenWithExtraProps = React.Children.map(

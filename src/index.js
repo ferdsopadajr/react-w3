@@ -6,6 +6,7 @@ import Container from "./Container";
 import MyForm from "./MyForm";
 import MovieBrowser from "./MovieBrowser";
 import MovieTitle from "./MovieTitle";
+import Wrapper from "./Wrapper";
 import "./style";
 
 ReactDOM.render(<Header favcol="yellow" />, document.getElementById("root"));
@@ -18,4 +19,13 @@ ReactDOM.render(
     <MovieTitle title="Start-Up" />
   </MovieBrowser>,
   document.getElementById("root-d")
+);
+ReactDOM.render(
+  <Wrapper>
+    <h3>MongoDB</h3>
+    <h3>ExpressJS</h3>
+    <h3>ReactJS</h3>
+    <h3>NodeJS</h3>
+  </Wrapper>,
+  document.getElementById("root-e")
 );

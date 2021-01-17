@@ -6,3 +6,10 @@ label {
   font-weight: bold;
   border: 2px solid black;
 }
+.wrapper {
+  background: yellow;
+}
+.wrapper-special {
+  border: 1px dashed red;
+  padding: 5px;
+}
