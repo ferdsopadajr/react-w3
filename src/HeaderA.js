@@ -7,12 +7,12 @@ export default class HeaderA extends React.Component {
   }
   static getDerivedStateFromProps(props, state) {
     console.log(state);
-    return state.favoritecolor == "blue"
+    return state.favoritecolor === "blue"
       ? state
       : { favoritecolor: props.favcol };
   }
   shouldComponentUpdate(state) {
-    return state.favoritecolor != "black";
+    return state.favoritecolor !== "black";
   }
   changeColor = () => {
     this.setState({ favoritecolor: "blue" });

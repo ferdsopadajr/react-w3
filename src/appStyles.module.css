@@ -1,6 +1,8 @@
-.error-background {
-  background-color: blue;
+.errorBackground {
+  background-color: black;
+  padding: 5px;
 }
 .error {
+  composes: errorBackground;
   color: red;
 }

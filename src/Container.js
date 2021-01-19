@@ -20,7 +20,7 @@ export default class Container extends React.Component {
   render() {
     return (
       <div>
-        {this.state.show == true ? <Child /> : ""}
+        {this.state.show === true ? <Child /> : ""}
         <button type="button" onClick={this.delChild}>
           Delete Child
         </button>

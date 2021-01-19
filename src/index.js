@@ -7,8 +7,8 @@ import MyForm from "./MyForm";
 import MovieBrowser from "./MovieBrowser";
 import MovieTitle from "./MovieTitle";
 import Parent from "./Parent";
-import "./style";
-import styles from "./appStyles.module";
+import "./style.css";
+import styles from "./appStyles.module.css";
 
 ReactDOM.render(<Header favcol="yellow" />, document.getElementById("root"));
 ReactDOM.render(<HeaderA favcol="black" />, document.getElementById("root-a"));

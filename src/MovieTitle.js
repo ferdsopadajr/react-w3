@@ -4,7 +4,7 @@ export default class MovieTitle extends React.Component {
   render() {
     let description = "";
     let style = {};
-    if (this.props.isPlaying == true) {
+    if (this.props.isPlaying === true) {
       style = { color: "red" };
       description = (
         <span style={{ color: "black" }}> is currently playing!</span>
